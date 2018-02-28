@@ -4,7 +4,7 @@ extern crate easy_strings;
 
 use std::env;
 use std::ops::{Range};
-use easy_strings::{EZString, ez};
+use easy_strings::{EZString};
 
 
 fn main() {
