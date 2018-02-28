@@ -1,0 +1,9 @@
+[package]
+name = "passwd"
+version = "0.1.0"
+authors = ["dong <dong@q.com>"]
+
+[dependencies]
+rand = "0.4"
+md5 = "0.3.7"
+easy_strings = "0.2"
