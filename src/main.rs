@@ -12,7 +12,19 @@ fn main() {
 
     // string to int
     // let maxlen = args[1].parse::<i32>().unwrap();
-    let maxlen: usize = args[1].parse().unwrap();
+    // let maxlen: usize = args[1].parse().unwrap();
+
+
+    let maxlen: usize = match args.len() {
+        2 => args[1].parse().unwrap(),
+        _ => "10".parse().unwrap(),
+    };
+
+
+    if maxlen > 32 {
+        println!("max length 32!", );
+        std::process::exit(0);
+    }
 
 
     for i in 0..10{
