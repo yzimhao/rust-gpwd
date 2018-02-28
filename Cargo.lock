@@ -27,6 +27,15 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "gpwd"
+version = "0.1.0"
+dependencies = [
+ "easy_strings 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "md5 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rand 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "lazy_static"
 version = "0.2.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -47,15 +56,6 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "stable_deref_trait 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "passwd"
-version = "0.1.0"
-dependencies = [
- "easy_strings 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "md5 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
- "rand 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
